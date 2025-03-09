@@ -1,0 +1,52 @@
+.about {
+  width: 320px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.about__info-container {
+  padding: 0 15px;
+}
+
+.about__title {
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.about__description {
+  margin: 0;
+  margin-bottom: 36px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.about p:nth-child(3) {
+  margin: 0;
+  margin-bottom: 36px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.about__video {
+  width: 320px;
+  height: 170px;
+  grid-column: 1 / 2;
+
+  @media (min-width: $tablet-width) {
+    width: 270px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 360px;
+    height: 230px;
+  }
+}
