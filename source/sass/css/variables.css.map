@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../common/variables.scss"
+  ],
+  "names": [],
+  "mappings": "AAUA;AAIA",
+  "file": "variables.css"
+}
