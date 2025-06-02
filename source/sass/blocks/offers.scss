@@ -135,6 +135,7 @@
   font-weight: 700;
   line-height: 64px;
   color: $base-white-color;
+  word-break: break-word;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 40px;

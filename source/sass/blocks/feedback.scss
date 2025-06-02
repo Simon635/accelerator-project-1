@@ -106,6 +106,8 @@
   width: 100%;
   padding: 0;
   padding-bottom: 5px;
+  padding-right: 4px;
+  box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -113,8 +115,6 @@
   color: $base-white-color;
   background-color: $colorless;
   border: none;
-
-  box-sizing: border-box;
 
   @media (min-width: $tablet-width) {
     width: 205px;

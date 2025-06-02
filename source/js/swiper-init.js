@@ -44,6 +44,8 @@ export function initSwiper() {
       loop: true,
       slidesPerView: 1,
       spaceBetween: 0,
+      simulateTouch: window.innerWidth <= 768,
+      allowTouchMove: window.innerWidth <= 768,
       breakpoints: {
         768: {
           slidesPerView: 2,
@@ -70,6 +72,8 @@ export function initSwiper() {
       loop: false,
       slidesPerView: 1,
       spaceBetween: 0,
+      simulateTouch: window.innerWidth <= 768,
+      allowTouchMove: window.innerWidth <= 768,
       breakpoints: {
         768: {
           slidesPerView: 1,

@@ -47,6 +47,7 @@
   color: $base-white-color;
   text-align: center;
   text-decoration: none;
+  word-break: break-word;
 
   @media (min-width: $tablet-width) {
     font-size: 24px;
