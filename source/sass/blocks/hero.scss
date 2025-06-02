@@ -180,7 +180,7 @@
   font-weight: 600;
   line-height: 32px;
   text-align: right;
-  color: $base-white-color;
+  color: $base-black-color;
 
   @media (min-width: $tablet-width) {
     font-size: 42px;
@@ -203,7 +203,7 @@
   font-style: normal;
   font-weight: 800;
   line-height: 62px;
-  color: $base-white-color;
+  color: $base-black-color;
   text-align: right;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -234,9 +234,9 @@
   font-weight: 700;
   line-height: 12px;
   text-transform: uppercase;
-  outline: 2px solid $base-white-color;
+  outline: 2px solid $base-black-color;
   text-align: center;
-  color: $base-white-color;
+  color: $base-black-color;
   text-decoration: none;
   outline-offset: -2px;
 

@@ -34,11 +34,12 @@
 
 .games__info-container {
   padding: 40px;
-  background-color: $banners-color;
+  background: linear-gradient(180deg, #B1D7FB 0.04%, #6597C6 8%, #000147 50%);
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
     padding-top: 39px;
+    background: linear-gradient(90deg, #b1d7db 0.05%, #6597c6 27.02%, #000147 99.95%);
   }
 
   @media (min-width: $desktop-width) {

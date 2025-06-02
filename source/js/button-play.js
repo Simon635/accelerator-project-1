@@ -4,7 +4,7 @@ document.getElementById('play-button').addEventListener('click', () => {
   const iframe = document.createElement('iframe');
   iframe.width = '100%';
   iframe.height = '100%';
-  iframe.src = 'https://www.youtube.com/embed/9TZXsZItgdw?autoplay=1&rel=0';
+  iframe.src = 'https://youtu.be/NeRFo07uBOE?si=ub9RkWpUSWZPXRnS';
   iframe.allow = 'autoplay; encrypted-media';
   iframe.allowFullscreen = true;
   iframe.frameBorder = '0';

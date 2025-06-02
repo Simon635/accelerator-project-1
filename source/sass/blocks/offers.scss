@@ -74,10 +74,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: $banners-color;
+  background: linear-gradient(90deg, #538DE6 0.01%, #4D83E5 23.83%, #4470DD 51.18%, #3F67D8 79.59%, #4069DA 99.61%);
+  width: 260px;
 
   @media (min-width: $tablet-width) {
-    width: 278px;
+    background: linear-gradient(180deg, #4F86E5 0%, #518BE5 28.04%, #5C9FE8 52.68%, #81B9ED 76.74%, #B3D2F3 100%);
     padding: 40px 25px;
     box-sizing: border-box;
     align-items: start;
@@ -101,7 +102,7 @@
     min-width: 320px;
     width: 100vw;
     height: 100%;
-    background-color: $banners-color;
+    background-color: $colorless;
     z-index: -1;
   }
 }
@@ -325,7 +326,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(149deg, #d10a42 0.85%, #00359f 100%);
+    background: linear-gradient(90deg, #67BBF7 1.33%, #ACABF9 99.81%);
     padding: 7px;
     mask: linear-gradient($base-white-color 0 0) content-box, linear-gradient($base-white-color 0 0);
     mask-composite: exclude;
