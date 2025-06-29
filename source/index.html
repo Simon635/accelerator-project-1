@@ -27,7 +27,7 @@
         <div class="hero__info-container">
           <p class="hero__location">Казань</p>
           <h2 class="hero__title">Фитнес центр</h2>
-          <a class="hero__link" href="#">Купить абонемент</a>
+          <a class="hero__link" href="#subscriptions">Купить абонемент</a>
         </div>
         <div class="hero__img-container">
           <picture>
@@ -45,7 +45,7 @@
   <main class="main">
     <section class="main__about about" data-test="about">
       <div class="about__info-container">
-        <h2 class="about__title">Тренажёрный зал</h2>
+        <h2 class="about__title" id="service">Тренажёрный зал</h2>
         <p class="about__description">Просторный зал площадью 900 кв/м</p>
         <div class="about__text-container">
           <p>Supergym – самый большой фитнес центр за Уралом и идеальное место для укрепления тела и здоровья.
@@ -101,7 +101,7 @@
     <section class="subscriptions" data-test="price">
       <div class="subscriptions__container">
         <div class="subscriptions__header-container">
-          <h2 class="subscriptions__main-title">Абонементы</h2>
+          <h2 class="subscriptions__main-title" id="subscriptions">Абонементы</h2>
           <ul class="subscriptions__tabs-list" role="tablist" aria-label="Выбор срока абонемента">
             <li class="subscriptions__tabs-item">
               <button class="subscriptions__tab subscriptions__tab--check" type="button" role="tab" aria-selected="true"
@@ -124,7 +124,7 @@
             <div class="subscriptions__price-container">
               <p class="subscriptions__price" aria-hidden="true">5000</p>
             </div>
-            <a class="subscriptions__button" href="#">Купить абонемент</a>
+            <a class="subscriptions__button" href="#form">Купить абонемент</a>
           </li>
           <li class="subscriptions__item" aria-labelledby="day-title" tabindex="0">
             <h3 class="subscriptions__title" id="day-title">Дневной</h3>
@@ -132,7 +132,7 @@
             <div class="subscriptions__price-container">
               <p class="subscriptions__price" aria-hidden="true">1700</p>
             </div>
-            <a class="subscriptions__button" href="#">Купить абонемент</a>
+            <a class="subscriptions__button" href="#form">Купить абонемент</a>
           </li>
           <li class="subscriptions__item" aria-labelledby="full-day-title" tabindex="0">
             <h3 class="subscriptions__title" id="full-day-title">Полный день</h3>
@@ -140,7 +140,7 @@
             <div class="subscriptions__price-container">
               <p class="subscriptions__price" aria-hidden="true">2700</p>
             </div>
-            <a class="subscriptions__button" href="#">Купить абонемент</a>
+            <a class="subscriptions__button" href="#form">Купить абонемент</a>
           </li>
         </ul>
       </div>
@@ -165,7 +165,7 @@
             </div>
           </div>
           <p class="games__text">Ежегодные соревнования по CrossFit</p>
-          <a class="games__button" href="#">заполнить заявку</a>
+          <a class="games__button" href="#form">заполнить заявку</a>
         </div>
         <div class="games__img-container">
           <picture>
@@ -187,7 +187,7 @@
       </div>
     </section>
     <section class="juri" data-test="juri">
-      <h2 class="juri__title">Жюри</h2>
+      <h2 class="juri__title" id="juri">Жюри</h2>
       <div class="juri__swiper-container">
         <div class="juri__swiper swiper">
           <div class="juri__swiper-wrapper swiper-wrapper">
@@ -401,7 +401,7 @@
       </div>
     </section>
     <section class="offers" data-test="offers">
-      <h2 class="offers__title">Акции</h2>
+      <h2 class="offers__title" id="offers">Акции</h2>
       <div class="offers__info-container">
         <div class="offers__info">
           <div class="offers__text-container">
@@ -740,7 +740,7 @@
         </div>
       </div>
     </section>
-    <section class="feedback" data-test="form">
+    <section class="feedback" data-test="form" id="form">
       <div class="feedback__form-container">
         <form class="feedback__form" method="post" action="https://echo.htmlacademy.ru/">
           <fieldset class="feedback__fieldset">
@@ -794,19 +794,19 @@
       <img class="footer__logo logo" src="img/logo.svg" width="100" height="20" alt="Логотип сайта SUPERGYM">
       <ul class="footer__list">
         <li class="footer__item">
-          <a class="footer__item-link" href="#">Услуги</a>
+          <a class="footer__item-link" href="#service">Услуги</a>
         </li>
         <li class="footer__item">
-          <a class="footer__item-link" href="#">Абонементы</a>
+          <a class="footer__item-link" href="#subscriptions">Абонементы</a>
         </li>
         <li class="footer__item">
-          <a class="footer__item-link" href="#">Акции</a>
+          <a class="footer__item-link" href="#offers">Акции</a>
         </li>
         <li class="footer__item">
-          <a class="footer__item-link" href="#">Тренеры</a>
+          <a class="footer__item-link" href="#juri">Тренеры</a>
         </li>
         <li class="footer__item">
-          <a class="footer__item-link" href="#">Расписание</a>
+          <a class="footer__item-link" href="#subscriptions">Расписание</a>
         </li>
       </ul>
       <ul class="footer__social-list">
